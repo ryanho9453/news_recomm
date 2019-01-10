@@ -1,0 +1,38 @@
+{
+  "preprocess": {
+      "train_size": 20000,
+      "test_size": 1,
+      "max_df": 0.6,
+      "min_df": 20,
+      "use_word_filter": true,
+      "keep_speech_verb": false,
+      "random_pull": true
+      },
+
+  "word2vec_model": {
+      "save_path": "aa"
+      },
+
+  "lda_model": {
+      "alpha": 0.6,
+      "beta": 0.5,
+      "n_topics": 100,
+      "maxiter": 50,
+      "use_prior_cluster": true
+      },
+
+  "rnn_model": {
+      "steps": 30000,
+      "batch_size": 512,
+      "n_gram": 8,
+      "stride": 3,
+      "embedding_dim": 128,
+      "num_units": 256,
+      "cell_type": "LSTM",
+      "learning_rate": 0.005,
+      "dropout": 0.2,
+      "num_layers": 1,
+      "random_pull": 1,
+      "use_word_filter": 1
+      }
+}

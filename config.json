@@ -1,0 +1,9 @@
+{
+  "word_vector": {"model": "LDA"},
+  "topic_words": {"stock_market": ["台股"],
+                  "trump": ["川普", "貿易", "歐盟", "北韓", "反核"]
+  }
+
+
+
+}
